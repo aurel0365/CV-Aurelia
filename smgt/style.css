@@ -1,0 +1,142 @@
+@page {
+    size: A4;
+}
+body { background-color: rgb(236, 236, 236);}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.kiri {
+    display: flex;
+    flex-flow: column nowrap;}
+
+
+.atas {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.detail {
+    display: flex;
+    margin-top: 2%;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.info p {
+    font-size: 15px;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+
+.kanan {
+    width: 150px;
+    height: 150px;
+}
+
+hr {
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+    border: none;
+    border-top: 2px solid rgb(21, 92, 136);
+}
+
+.deskripsi p {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+a {
+    text-align: center;
+    font-size: 15px;
+}
+
+.kanan{
+    position: absolute;
+    right: 0;
+}
+
+.kanan img{
+    width: 80%;
+}
+
+.atas{
+    display: flex;
+    align-items: center;
+}
+
+.utama{
+    margin: 10px 20px 10px 20px;
+}
+
+.infodesk{
+    margin-top: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.infoutama p{ font-family: 'Times New Roman', Times, serif;
+margin-top: 2%;
+font-size: 100%;}
+
+.language p{
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 90%;
+}
+
+.bahasa { margin-left: 3%;
+        font-size: 85%;        
+}
+
+.skill p{
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 90%;
+}
+.myskills{ margin-left: 3%;
+    font-size: 85%;  }
+.sekolah p{ 
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 90%;
+    margin-bottom: 0%;}
+
+.myeducation{ margin-left: 3%;
+    font-size: 85%;  }
+
+.hobbies p {margin-top: 2%;
+    margin-left: 1%;
+    font-size: 90%;}
+
+.hobi{ 
+    margin-top: 0%;
+    margin-left: 3%;
+    font-size: 85%;  }
+
+.sw p {margin-top: 2%;
+    margin-left: 1%;
+    font-size: 90%;}
+
+.kk p{ margin-left: 1%;
+    margin-top: 1%;
+    font-size: 88%;  }
+.kk1{margin-left: 3%; 
+    font-size: 85%;}
+.kekurangan{margin-left: 1%; 
+    font-size: 88%;}
+.isikk{margin-left: 3%; 
+    font-size:85%;}
+    
+.experience{ margin-top: 2%;}
+.pengalaman p{margin-top:2%;
+    margin-left: 1%;
+    font-size: 90%;}
+.isipengalaman{margin-left: 3%; 
+    font-size: 85%;}
+.swal{ margin-top: 2%;}
